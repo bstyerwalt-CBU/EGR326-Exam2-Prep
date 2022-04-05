@@ -6,9 +6,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-/**
- * Robbie Sollie - SomeClass.java - EGR326 - CBU - 2019-04-01
- */
 public class SomeClass {
     private List<List<String>> list;
     private Map<Integer, String> map;

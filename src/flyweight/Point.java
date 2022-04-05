@@ -3,9 +3,6 @@ package flyweight;
 import java.awt.*;
 import java.util.Map;
 
-/**
- * Robbie Sollie - Point.java - EGR326 - CBU - 2019-04-01
- */
 public class Point {
     private final int x;
     private final int y;
