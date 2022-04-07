@@ -17,7 +17,7 @@ public class SomeClass {
         if (uniqueInstance == null) {
             synchronized (SomeClass.class) {
                 if (uniqueInstance == null) {
-                    return new SomeClass();
+                    uniqueInstance = new SomeClass();
                 }
             }
         }
